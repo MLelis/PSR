@@ -6,7 +6,7 @@ function foo()
 }
 
 // conditional declaration is *not* a side effect
-if(!function_exists('bar')){
+if(! function_exists('bar')) {
     function bar()
     {
         // function body
